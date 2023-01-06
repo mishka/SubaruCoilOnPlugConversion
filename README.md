@@ -10,6 +10,8 @@ There are a few tutorials and guides out there, but they were only a little help
   * Reduced engine power
   * The engine vibrates more than it should
   * Rough acceleration / feedback from the throttle
+  
+  **Please note that all of the above symptoms can also be caused by the spark plugs; you should also check them before proceeding.**
 
 # Understanding the Waste Spark System
 
@@ -19,7 +21,7 @@ A wasted spark system is an ignition system used in some four-stroke cycle inter
 
 # Testing the Coil Packs
 
-You may have found this guide while searching for a fix, and you don't want to do a conversion. Here's how you can test your ignition coil system.
+If you are looking for a fix and do not want to do a conversion, you can test your ignition coil system using the following method:
 
 To test the coil pack, you can follow the steps outlined in the picture. If the coil pack is good, but your car is struggling to run, you can also try pulling each coil cable individually from the coil pack to see if the engine reacts in any way while the engine is running. If it does, this indicates that the coil cable is functioning correctly. If the engine does not respond, the coil cable is not working.
 
@@ -27,7 +29,7 @@ To test the coil pack, you can follow the steps outlined in the picture. If the 
 
 # How to Connect the Cables
 
-Before looking at the pins of the sockets, let us understand the process we will go through. You have to connect the **signal**, **ground**, and **12v** cables accordingly, and you'll be good to go.
+Before examining the pins of the sockets, let's understand the process we will follow. To complete the process, you will need to connect the **signal**, **ground**, and **12v** cables in the correct manner. Once you have done this, you should be ready to proceed.
 
 # Coil Pack Information and the Cylinder Layout
 
@@ -44,6 +46,20 @@ From top to bottom, the pins are **SIGNAL**, **GROUND**, and **12V**, as shown i
 ![alt text](https://raw.githubusercontent.com/mishka/SubaruCoilOnPlugConversion/main/CoilPlug.jpg "Pin layout of the coil on plugs.")
 
 # Pin Layout of the Old Coil Pack
+
+  * You can use the top left pin **12V** to power all of the coils.
+  * The top right pin is the **ground** and should be connected to the **ground** pin on the coils.
+  * The bottom left pin is a **signal** pin that should be connected to the coils on **cylinder 1 and 2**.
+  * The bottom right pin is the other **signal** pin, which should be connected to the coils on **cylinder 3 and 4**.
+
 ![alt text](https://raw.githubusercontent.com/mishka/SubaruCoilOnPlugConversion/main/OldCoilPack.jpg "Old coil pack pin layout.")
 
+# Optional Ground Connection
+
+If you wish, you can purchase 4 of these connectors and connect the ground cable from the new coil you are installing (middle pin) to it. Then, you can place the connector under the bolt of the plug. Using this method will eliminate the need for the ground cable that comes from the ECU harness.
+
+The accompanying pictures should provide sufficient explanation.
+
+![alt text](https://raw.githubusercontent.com/mishka/SubaruCoilOnPlugConversion/main/GroundConnectors.jpg "Connector thingies.")
+![alt text](https://raw.githubusercontent.com/mishka/SubaruCoilOnPlugConversion/main/TopViewInstalledCP.jpg "Connector thingies.")
 
